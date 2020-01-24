@@ -1,4 +1,9 @@
-﻿
+﻿'Alex Wachs
+'RCET0265
+'Spring 2020
+'SIMPLE CALC
+'RCET_VB_2020
+
 
 Module Module1
 
