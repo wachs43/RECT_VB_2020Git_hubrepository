@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class ExampleForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,7 +23,7 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.usertextbox = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
@@ -36,12 +36,12 @@ Partial Class Form1
         Me.Button1.Text = "Update"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'usertextbox
         '
-        Me.TextBox1.Location = New System.Drawing.Point(206, 75)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(354, 20)
-        Me.TextBox1.TabIndex = 1
+        Me.usertextbox.Location = New System.Drawing.Point(206, 75)
+        Me.usertextbox.Name = "usertextbox"
+        Me.usertextbox.Size = New System.Drawing.Size(354, 20)
+        Me.usertextbox.TabIndex = 1
         '
         'Button2
         '
@@ -52,15 +52,15 @@ Partial Class Form1
         Me.Button2.Text = "Exit"
         Me.Button2.UseVisualStyleBackColor = True
         '
-        'Form1
+        'ExampleForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.usertextbox)
         Me.Controls.Add(Me.Button1)
-        Me.Name = "Form1"
+        Me.Name = "ExampleForm"
         Me.Text = "FormExample"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -68,6 +68,6 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents Button1 As Button
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents usertextbox As TextBox
     Friend WithEvents Button2 As Button
 End Class
