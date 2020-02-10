@@ -21,7 +21,7 @@ Module Module1
         Do While QUIT = False
 
             Console.WriteLine("enter 1st digit, enter secound digit, select 1 for addition and 2 for multiplication.")
-
+            Console.WriteLine("for subtraction input a 3 and for division input a 4")
             Console.WriteLine("please enter a number")
             Do While userpromt = True
                 Try
@@ -51,15 +51,22 @@ Module Module1
 
 
 
-                If selector = 1 Then
-                    Console.WriteLine(firstnumber + secoundnumber)
-                    Console.ReadLine()
-                    'cint(variable) converts a sting to variable
-                ElseIf selector = 2 Then
-                    Console.WriteLine(firstnumber * secoundnumber)
-                    Console.ReadLine()
-                Else
-                    Console.WriteLine("invalid operation")
+            If selector = 1 Then
+                Console.WriteLine(firstnumber + secoundnumber)
+                Console.ReadLine()
+                'cint(variable) converts a sting to variable
+            ElseIf selector = 2 Then
+                Console.WriteLine(firstnumber * secoundnumber)
+                Console.ReadLine()
+            ElseIf selector = 3 Then
+                Console.WriteLine(firstnumber - secoundnumber)
+                Console.ReadLine()
+            ElseIf selector = 4 Then
+                Console.WriteLine(firstnumber / secoundnumber)
+                Console.ReadLine()
+
+            Else
+                Console.WriteLine("invalid operation")
                     Console.ReadLine()
                 End If
                 Console.WriteLine("HAVE A NICE DAY!!!")
