@@ -22,171 +22,191 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.Total = New System.Windows.Forms.GroupBox()
+        Me.add = New System.Windows.Forms.Button()
+        Me.cartlink = New System.Windows.Forms.Button()
+        Me.checkout = New System.Windows.Forms.Button()
+        Me.food1 = New System.Windows.Forms.Button()
+        Me.food2 = New System.Windows.Forms.Button()
+        Me.food3 = New System.Windows.Forms.Button()
+        Me.food4 = New System.Windows.Forms.Button()
+        Me.Total = New System.Windows.Forms.TextBox()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.ORDER = New System.Windows.Forms.GroupBox()
-        Me.Total.SuspendLayout()
-        Me.ORDER.SuspendLayout()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Button1
+        'add
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 269)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(157, 71)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.add.Location = New System.Drawing.Point(12, 269)
+        Me.add.Name = "add"
+        Me.add.Size = New System.Drawing.Size(157, 71)
+        Me.add.TabIndex = 0
+        Me.add.Text = "ADD TO CART"
+        Me.add.UseVisualStyleBackColor = True
         '
-        'Button2
+        'cartlink
         '
-        Me.Button2.Location = New System.Drawing.Point(213, 269)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(157, 71)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.cartlink.Location = New System.Drawing.Point(213, 269)
+        Me.cartlink.Name = "cartlink"
+        Me.cartlink.Size = New System.Drawing.Size(157, 71)
+        Me.cartlink.TabIndex = 1
+        Me.cartlink.Text = "GO TO CART"
+        Me.cartlink.UseVisualStyleBackColor = True
         '
-        'Button3
+        'checkout
         '
-        Me.Button3.Location = New System.Drawing.Point(413, 269)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(157, 71)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.checkout.Location = New System.Drawing.Point(413, 269)
+        Me.checkout.Name = "checkout"
+        Me.checkout.Size = New System.Drawing.Size(157, 71)
+        Me.checkout.TabIndex = 2
+        Me.checkout.Text = "Checkout"
+        Me.checkout.UseVisualStyleBackColor = True
         '
-        'Button4
+        'food1
         '
-        Me.Button4.Location = New System.Drawing.Point(631, 12)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(157, 71)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Button4"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.food1.Location = New System.Drawing.Point(631, 12)
+        Me.food1.Name = "food1"
+        Me.food1.Size = New System.Drawing.Size(157, 71)
+        Me.food1.TabIndex = 3
+        Me.food1.Text = "wings"
+        Me.food1.UseVisualStyleBackColor = True
         '
-        'Button5
+        'food2
         '
-        Me.Button5.Location = New System.Drawing.Point(631, 89)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(157, 71)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "Button5"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.food2.Location = New System.Drawing.Point(631, 89)
+        Me.food2.Name = "food2"
+        Me.food2.Size = New System.Drawing.Size(157, 71)
+        Me.food2.TabIndex = 4
+        Me.food2.Text = "pizza"
+        Me.food2.UseVisualStyleBackColor = True
         '
-        'Button6
+        'food3
         '
-        Me.Button6.Location = New System.Drawing.Point(631, 166)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(157, 71)
-        Me.Button6.TabIndex = 5
-        Me.Button6.Text = "Button6"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.food3.Location = New System.Drawing.Point(631, 166)
+        Me.food3.Name = "food3"
+        Me.food3.Size = New System.Drawing.Size(157, 71)
+        Me.food3.TabIndex = 5
+        Me.food3.Text = "fried rice"
+        Me.food3.UseVisualStyleBackColor = True
         '
-        'Button7
+        'food4
         '
-        Me.Button7.Location = New System.Drawing.Point(631, 243)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(157, 71)
-        Me.Button7.TabIndex = 6
-        Me.Button7.Text = "Button7"
-        Me.Button7.UseVisualStyleBackColor = True
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(0, 23)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(316, 20)
-        Me.TextBox4.TabIndex = 10
+        Me.food4.Location = New System.Drawing.Point(631, 243)
+        Me.food4.Name = "food4"
+        Me.food4.Size = New System.Drawing.Size(157, 71)
+        Me.food4.TabIndex = 6
+        Me.food4.Text = "ice cream"
+        Me.food4.UseVisualStyleBackColor = True
         '
         'Total
         '
-        Me.Total.Controls.Add(Me.TextBox4)
-        Me.Total.Location = New System.Drawing.Point(12, 143)
+        Me.Total.Location = New System.Drawing.Point(12, 243)
         Me.Total.Name = "Total"
-        Me.Total.Size = New System.Drawing.Size(318, 44)
-        Me.Total.TabIndex = 12
-        Me.Total.TabStop = False
-        Me.Total.Text = "Total"
+        Me.Total.Size = New System.Drawing.Size(558, 20)
+        Me.Total.TabIndex = 10
+        '
+        'ListBox1
+        '
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.Location = New System.Drawing.Point(12, 75)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(558, 147)
+        Me.ListBox1.TabIndex = 11
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(7, 12)
+        Me.TextBox1.Location = New System.Drawing.Point(470, 38)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(558, 20)
-        Me.TextBox1.TabIndex = 7
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.TabIndex = 12
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(7, 38)
+        Me.TextBox2.Location = New System.Drawing.Point(12, 38)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(558, 20)
-        Me.TextBox2.TabIndex = 8
+        Me.TextBox2.Size = New System.Drawing.Size(425, 20)
+        Me.TextBox2.TabIndex = 13
         '
-        'TextBox3
+        'Label1
         '
-        Me.TextBox3.Location = New System.Drawing.Point(7, 64)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(558, 20)
-        Me.TextBox3.TabIndex = 9
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(9, 22)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.TabIndex = 14
+        Me.Label1.Text = "Label1"
         '
-        'ORDER
+        'Label2
         '
-        Me.ORDER.Controls.Add(Me.TextBox3)
-        Me.ORDER.Controls.Add(Me.TextBox2)
-        Me.ORDER.Controls.Add(Me.TextBox1)
-        Me.ORDER.Location = New System.Drawing.Point(5, 12)
-        Me.ORDER.Name = "ORDER"
-        Me.ORDER.Size = New System.Drawing.Size(620, 99)
-        Me.ORDER.TabIndex = 11
-        Me.ORDER.TabStop = False
-        Me.ORDER.Text = "ORDER"
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(467, 22)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(39, 13)
+        Me.Label2.TabIndex = 15
+        Me.Label2.Text = "Label2"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(12, 227)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(39, 13)
+        Me.Label3.TabIndex = 16
+        Me.Label3.Text = "Label3"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(12, 59)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(39, 13)
+        Me.Label4.TabIndex = 17
+        Me.Label4.Text = "Label4"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.Total)
-        Me.Controls.Add(Me.ORDER)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.food4)
+        Me.Controls.Add(Me.food3)
+        Me.Controls.Add(Me.food2)
+        Me.Controls.Add(Me.food1)
+        Me.Controls.Add(Me.checkout)
+        Me.Controls.Add(Me.cartlink)
+        Me.Controls.Add(Me.add)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        Me.Total.ResumeLayout(False)
-        Me.Total.PerformLayout()
-        Me.ORDER.ResumeLayout(False)
-        Me.ORDER.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents Total As GroupBox
+    Friend WithEvents add As Button
+    Friend WithEvents cartlink As Button
+    Friend WithEvents checkout As Button
+    Friend WithEvents food1 As Button
+    Friend WithEvents food2 As Button
+    Friend WithEvents food3 As Button
+    Friend WithEvents food4 As Button
+    Friend WithEvents Total As TextBox
+    Friend WithEvents ListBox1 As ListBox
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents ORDER As GroupBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
 End Class
