@@ -1,5 +1,6 @@
 ﻿Public Class Form1
     Private Sub ListBoxForm_Load(sender As Object, e As EventArgs) Handles Me.Load
+
         'DataListBox
         FirstNameTextBox.Text = "Elmer"
         LastNameTextBox.Text = "Fudd"
@@ -21,5 +22,7 @@
     Private Sub DataListBox_SelectedIndexChanged(sender As Object, e As EventArgs) Handles DataListBox.SelectedIndexChanged
         Me.Text = DataListBox.SelectedIndex.ToString
         ' TODO add selected to first name And last name text box
+
     End Sub
+
 End Class
