@@ -1,4 +1,11 @@
-﻿Public Class DinerMenuForm
+﻿'Alex Wachs
+'RCET0265
+'Spring 2020
+'SIMPLE CALC
+'RECT_VB_2020Git_hubrepository
+
+
+Public Class DinerMenuForm
     Private Sub SoupButton_Click(sender As Object, e As EventArgs) Handles SoupButton.Click
 
         Dim soupMessage As String
