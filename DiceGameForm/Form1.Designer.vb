@@ -23,9 +23,9 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.RollButton = New System.Windows.Forms.Button()
+        Me.ClearButton = New System.Windows.Forms.Button()
+        Me.ExitButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'ListBox1
@@ -36,41 +36,42 @@ Partial Class Form1
         Me.ListBox1.Size = New System.Drawing.Size(570, 368)
         Me.ListBox1.TabIndex = 0
         '
-        'Button1
+        'RollButton
         '
-        Me.Button1.Location = New System.Drawing.Point(608, 12)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(180, 66)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.RollButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.RollButton.Location = New System.Drawing.Point(608, 12)
+        Me.RollButton.Name = "RollButton"
+        Me.RollButton.Size = New System.Drawing.Size(180, 66)
+        Me.RollButton.TabIndex = 1
+        Me.RollButton.Text = "Roll"
+        Me.RollButton.UseVisualStyleBackColor = True
         '
-        'Button2
+        'ClearButton
         '
-        Me.Button2.Location = New System.Drawing.Point(608, 113)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(180, 66)
-        Me.Button2.TabIndex = 2
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.ClearButton.Location = New System.Drawing.Point(608, 113)
+        Me.ClearButton.Name = "ClearButton"
+        Me.ClearButton.Size = New System.Drawing.Size(180, 66)
+        Me.ClearButton.TabIndex = 2
+        Me.ClearButton.Text = "Clear"
+        Me.ClearButton.UseVisualStyleBackColor = True
         '
-        'Button3
+        'ExitButton
         '
-        Me.Button3.Location = New System.Drawing.Point(608, 214)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(180, 66)
-        Me.Button3.TabIndex = 3
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.ExitButton.Location = New System.Drawing.Point(608, 214)
+        Me.ExitButton.Name = "ExitButton"
+        Me.ExitButton.Size = New System.Drawing.Size(180, 66)
+        Me.ExitButton.TabIndex = 3
+        Me.ExitButton.Text = "Exit"
+        Me.ExitButton.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.ExitButton)
+        Me.Controls.Add(Me.ClearButton)
+        Me.Controls.Add(Me.RollButton)
         Me.Controls.Add(Me.ListBox1)
         Me.Name = "Form1"
         Me.Text = "Form1"
@@ -79,7 +80,7 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents ListBox1 As ListBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents RollButton As Button
+    Friend WithEvents ClearButton As Button
+    Friend WithEvents ExitButton As Button
 End Class
